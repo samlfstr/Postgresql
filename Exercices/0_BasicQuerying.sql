@@ -70,8 +70,3 @@ select id, food_name from _food_names where id between 1 and 1000 and food_name 
 -- That way using the values returned from the first query I can more complex queries
 -- For example on the query below I used an information returned from the line before
 select food_name from _food_names where id in(557,786,843);
-
-
-
-
-
